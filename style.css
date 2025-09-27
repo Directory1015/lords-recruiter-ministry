@@ -41,3 +41,20 @@ footer{padding:30px 16px;border-top:1px solid #e6e8ef;background:#fff;color:#3b4
 /* Bigger top-left logo in header */
 .nav-logo{height:90px;width:auto}
 
+/* Decorative lines for hero title */
+.lined-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 36px;
+  margin: 12px 0 8px;
+}
+
+.lined-title::before,
+.lined-title::after {
+  content: "";
+  flex: 1;
+  border-top: 2px solid var(--gold);
+  max-width: 120px;
+}

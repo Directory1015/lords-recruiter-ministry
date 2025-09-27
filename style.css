@@ -58,3 +58,11 @@ footer{padding:30px 16px;border-top:1px solid #e6e8ef;background:#fff;color:#3b4
   border-top: 2px solid var(--gold);
   max-width: 120px;
 }
+
+/* Make glow logo smaller on mobile */
+@media (max-width: 600px) {
+  #logo-feature img {
+    max-width: 220px;
+  }
+}
+
